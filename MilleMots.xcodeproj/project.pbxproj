@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821FD9602B8F8FD800DC040A /* MilleMotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821FD95F2B8F8FD800DC040A /* MilleMotsApp.swift */; };
+		821FD9622B8F8FD800DC040A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821FD9612B8F8FD800DC040A /* ContentView.swift */; };
+		821FD9642B8F8FD800DC040A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821FD9632B8F8FD800DC040A /* Assets.xcassets */; };
+		821FD9682B8F8FD800DC040A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821FD9672B8F8FD800DC040A /* Preview Assets.xcassets */; };
+		821FD9722B8F8FD800DC040A /* MilleMotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821FD9712B8F8FD800DC040A /* MilleMotsTests.swift */; };
+		821FD97C2B8F8FD800DC040A /* MilleMotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821FD97B2B8F8FD800DC040A /* MilleMotsUITests.swift */; };
+		821FD97E2B8F8FD800DC040A /* MilleMotsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821FD97D2B8F8FD800DC040A /* MilleMotsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821FD96E2B8F8FD800DC040A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821FD9542B8F8FD800DC040A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821FD95B2B8F8FD800DC040A;
+			remoteInfo = MilleMots;
+		};
+		821FD9782B8F8FD800DC040A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821FD9542B8F8FD800DC040A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821FD95B2B8F8FD800DC040A;
+			remoteInfo = MilleMots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821FD95C2B8F8FD800DC040A /* MilleMots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilleMots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FD95F2B8F8FD800DC040A /* MilleMotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilleMotsApp.swift; sourceTree = "<group>"; };
+		821FD9612B8F8FD800DC040A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		821FD9632B8F8FD800DC040A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821FD9652B8F8FD800DC040A /* MilleMots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MilleMots.entitlements; sourceTree = "<group>"; };
+		821FD9672B8F8FD800DC040A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		821FD96D2B8F8FD800DC040A /* MilleMotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilleMotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FD9712B8F8FD800DC040A /* MilleMotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilleMotsTests.swift; sourceTree = "<group>"; };
+		821FD9772B8F8FD800DC040A /* MilleMotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilleMotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821FD97B2B8F8FD800DC040A /* MilleMotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilleMotsUITests.swift; sourceTree = "<group>"; };
+		821FD97D2B8F8FD800DC040A /* MilleMotsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilleMotsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821FD9592B8F8FD800DC040A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD96A2B8F8FD800DC040A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD9742B8F8FD800DC040A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821FD9532B8F8FD800DC040A = {
+			isa = PBXGroup;
+			children = (
+				821FD95E2B8F8FD800DC040A /* MilleMots */,
+				821FD9702B8F8FD800DC040A /* MilleMotsTests */,
+				821FD97A2B8F8FD800DC040A /* MilleMotsUITests */,
+				821FD95D2B8F8FD800DC040A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821FD95D2B8F8FD800DC040A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821FD95C2B8F8FD800DC040A /* MilleMots.app */,
+				821FD96D2B8F8FD800DC040A /* MilleMotsTests.xctest */,
+				821FD9772B8F8FD800DC040A /* MilleMotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821FD95E2B8F8FD800DC040A /* MilleMots */ = {
+			isa = PBXGroup;
+			children = (
+				821FD95F2B8F8FD800DC040A /* MilleMotsApp.swift */,
+				821FD9612B8F8FD800DC040A /* ContentView.swift */,
+				821FD9632B8F8FD800DC040A /* Assets.xcassets */,
+				821FD9652B8F8FD800DC040A /* MilleMots.entitlements */,
+				821FD9662B8F8FD800DC040A /* Preview Content */,
+			);
+			path = MilleMots;
+			sourceTree = "<group>";
+		};
+		821FD9662B8F8FD800DC040A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				821FD9672B8F8FD800DC040A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		821FD9702B8F8FD800DC040A /* MilleMotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				821FD9712B8F8FD800DC040A /* MilleMotsTests.swift */,
+			);
+			path = MilleMotsTests;
+			sourceTree = "<group>";
+		};
+		821FD97A2B8F8FD800DC040A /* MilleMotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821FD97B2B8F8FD800DC040A /* MilleMotsUITests.swift */,
+				821FD97D2B8F8FD800DC040A /* MilleMotsUITestsLaunchTests.swift */,
+			);
+			path = MilleMotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821FD95B2B8F8FD800DC040A /* MilleMots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FD9812B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMots" */;
+			buildPhases = (
+				821FD9582B8F8FD800DC040A /* Sources */,
+				821FD9592B8F8FD800DC040A /* Frameworks */,
+				821FD95A2B8F8FD800DC040A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilleMots;
+			productName = MilleMots;
+			productReference = 821FD95C2B8F8FD800DC040A /* MilleMots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821FD96C2B8F8FD800DC040A /* MilleMotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FD9842B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMotsTests" */;
+			buildPhases = (
+				821FD9692B8F8FD800DC040A /* Sources */,
+				821FD96A2B8F8FD800DC040A /* Frameworks */,
+				821FD96B2B8F8FD800DC040A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821FD96F2B8F8FD800DC040A /* PBXTargetDependency */,
+			);
+			name = MilleMotsTests;
+			productName = MilleMotsTests;
+			productReference = 821FD96D2B8F8FD800DC040A /* MilleMotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821FD9762B8F8FD800DC040A /* MilleMotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821FD9872B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMotsUITests" */;
+			buildPhases = (
+				821FD9732B8F8FD800DC040A /* Sources */,
+				821FD9742B8F8FD800DC040A /* Frameworks */,
+				821FD9752B8F8FD800DC040A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821FD9792B8F8FD800DC040A /* PBXTargetDependency */,
+			);
+			name = MilleMotsUITests;
+			productName = MilleMotsUITests;
+			productReference = 821FD9772B8F8FD800DC040A /* MilleMotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821FD9542B8F8FD800DC040A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					821FD95B2B8F8FD800DC040A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					821FD96C2B8F8FD800DC040A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 821FD95B2B8F8FD800DC040A;
+					};
+					821FD9762B8F8FD800DC040A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 821FD95B2B8F8FD800DC040A;
+					};
+				};
+			};
+			buildConfigurationList = 821FD9572B8F8FD800DC040A /* Build configuration list for PBXProject "MilleMots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821FD9532B8F8FD800DC040A;
+			productRefGroup = 821FD95D2B8F8FD800DC040A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821FD95B2B8F8FD800DC040A /* MilleMots */,
+				821FD96C2B8F8FD800DC040A /* MilleMotsTests */,
+				821FD9762B8F8FD800DC040A /* MilleMotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821FD95A2B8F8FD800DC040A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FD9682B8F8FD800DC040A /* Preview Assets.xcassets in Resources */,
+				821FD9642B8F8FD800DC040A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD96B2B8F8FD800DC040A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD9752B8F8FD800DC040A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821FD9582B8F8FD800DC040A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FD9622B8F8FD800DC040A /* ContentView.swift in Sources */,
+				821FD9602B8F8FD800DC040A /* MilleMotsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD9692B8F8FD800DC040A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FD9722B8F8FD800DC040A /* MilleMotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821FD9732B8F8FD800DC040A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821FD97C2B8F8FD800DC040A /* MilleMotsUITests.swift in Sources */,
+				821FD97E2B8F8FD800DC040A /* MilleMotsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821FD96F2B8F8FD800DC040A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821FD95B2B8F8FD800DC040A /* MilleMots */;
+			targetProxy = 821FD96E2B8F8FD800DC040A /* PBXContainerItemProxy */;
+		};
+		821FD9792B8F8FD800DC040A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821FD95B2B8F8FD800DC040A /* MilleMots */;
+			targetProxy = 821FD9782B8F8FD800DC040A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		821FD97F2B8F8FD800DC040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		821FD9802B8F8FD800DC040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		821FD9822B8F8FD800DC040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MilleMots/MilleMots.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MilleMots/Preview Content\"";
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821FD9832B8F8FD800DC040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MilleMots/MilleMots.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MilleMots/Preview Content\"";
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		821FD9852B8F8FD800DC040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilleMots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MilleMots";
+			};
+			name = Debug;
+		};
+		821FD9862B8F8FD800DC040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilleMots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MilleMots";
+			};
+			name = Release;
+		};
+		821FD9882B8F8FD800DC040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilleMots;
+			};
+			name = Debug;
+		};
+		821FD9892B8F8FD800DC040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 488YJU3X46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilleMots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821FD9572B8F8FD800DC040A /* Build configuration list for PBXProject "MilleMots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FD97F2B8F8FD800DC040A /* Debug */,
+				821FD9802B8F8FD800DC040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FD9812B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FD9822B8F8FD800DC040A /* Debug */,
+				821FD9832B8F8FD800DC040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FD9842B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FD9852B8F8FD800DC040A /* Debug */,
+				821FD9862B8F8FD800DC040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821FD9872B8F8FD800DC040A /* Build configuration list for PBXNativeTarget "MilleMotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821FD9882B8F8FD800DC040A /* Debug */,
+				821FD9892B8F8FD800DC040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821FD9542B8F8FD800DC040A /* Project object */;
+}
