@@ -192,8 +192,10 @@ struct Edit: View {
                         if enableSwitches {
                             HStack {
                                 Toggle("Actif : ", isOn: $ba)
+                                    .onChange(of: ba) { if ba { mm = false } }
                                 Spacer()
                                 Toggle("Acquis : ", isOn: $mm)
+                                    .onChange(of: mm) { if mm { ba = false } }
                             }
                         } else {
                             Text("")

@@ -36,7 +36,6 @@
 		825606DF2D11732B001F081E /* ods_mille_mots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 825606DC2D11732B001F081E /* ods_mille_mots.txt */; };
 		825C81C52D083379002CAB6B /* DefEnLigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C81C42D083379002CAB6B /* DefEnLigne.swift */; };
 		825C81C82D0833AD002CAB6B /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 825C81C72D0833AD002CAB6B /* SwiftSoup */; };
-		827163862C20979E006E775F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827163852C20979E006E775F /* Launch Screen.storyboard */; };
 		8289D2842E39239F00FE5631 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289D2832E39239F00FE5631 /* Const.swift */; };
 		8289D2862E39261200FE5631 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289D2852E39261200FE5631 /* Extensions.swift */; };
 		828C689A2DD1EECD003DDAC2 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C68992DD1EECD003DDAC2 /* NetworkMonitor.swift */; };
@@ -139,7 +138,6 @@
 		825606852D102F1B001F081E /* InfoElimots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoElimots.swift; sourceTree = "<group>"; };
 		825606DC2D11732B001F081E /* ods_mille_mots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ods_mille_mots.txt; sourceTree = "<group>"; };
 		825C81C42D083379002CAB6B /* DefEnLigne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefEnLigne.swift; sourceTree = "<group>"; };
-		827163852C20979E006E775F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8289D2832E39239F00FE5631 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		8289D2852E39261200FE5631 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		828C68992DD1EECD003DDAC2 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				8249E0A22FBB3F2500B2B655 /* Localizable.xcstrings */,
-				827163852C20979E006E775F /* Launch Screen.storyboard */,
 				821FD95E2B8F8FD800DC040A /* MilleMots */,
 				821FD9702B8F8FD800DC040A /* MilleMotsTests */,
 				821FD97A2B8F8FD800DC040A /* MilleMotsUITests */,
@@ -444,7 +441,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DDDE2B2ED8759B00F7D1DA /* Suggestions.txt in Resources */,
-				827163862C20979E006E775F /* Launch Screen.storyboard in Resources */,
 				8249E0A32FBB3F2500B2B655 /* Localizable.xcstrings in Resources */,
 				821FD9682B8F8FD800DC040A /* Preview Assets.xcassets in Resources */,
 				82ADF4EF2BA21AAE0034800C /* Assets.xcassets in Resources */,
@@ -704,7 +700,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MilleMots/MilleMots.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MilleMots/Preview Content\"";
 				ENABLE_APP_SANDBOX = YES;
@@ -713,13 +709,16 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MilleMots/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -729,7 +728,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -748,7 +747,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MilleMots/MilleMots.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MilleMots/Preview Content\"";
 				ENABLE_APP_SANDBOX = YES;
@@ -757,13 +756,16 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MilleMots/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -773,7 +775,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 4.0;
+				MARKETING_VERSION = 4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swmillemots.MilleMots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
