@@ -1,0 +1,174 @@
+﻿ZYDECO; Musique populaire, en Louisiane.
+ZOUGOIS; Du canton de Zoug (Suisse).
+ZINGARI ZINGARO; Tsigane.
+ZARMA; D'un peuple du Niger.
+ZAMAK; Alliage de zinc.
+ZAGAIE; Javelot.
+YEZIDI YAZIDI; D'une minorité kurde.
+YERIDA; Émigration des juifs d'Israël.
+YEOMAN; Petit propriétaire en Angleterre.
+YAMBA; Cannabis africain.
+XYLEME; Bot. Tissu vivant des végétaux.
+XIMENIA XIMENIE; Arbrisseau tropical. 
+XENISME; Mot emprunté à une langue étrangère. 
+WINGLET; Ailette à l’extrémité des ailes d'avion.
+WERGELD; Chez les Germains et les Francs, indemnité due par un meurtrier à la famille de sa victime.
+WENDAT; D'un peuple amérindien.
+WAGAGE; Limon de rivière utilisé comme engrais.
+TUGRIK; Monnaie de la Mongolie.
+TOMAHAWK TOMAWAK; Hache de guerre des Amérindiens.
+THYADE THYIADE; Bacchante.
+THAZARD; Poisson des mers chaudes.
+THALWEG TALWEG; Ligne de plus grande pente.
+TAXUM TAXON; Biol. Unité taxinomique.
+STOMOXE; Mouche nuisible pour le bétail. 
+STAWUG; Pas de marche en ski de fond.
+SPUMEUX; Rempli d'écume.
+SODOKU; Maladie transmise par les rongeurs.
+SMILAX; Liseron.
+SKIMMIA; Arbuste.
+SEXTING; Envoi de sextos.
+SEXTIDI; Sixième jour de la décade, dans le calendrier républicain.
+SEMTEX; Explosif.
+SCOLYME; Plante ressemblant à un chardon.
+SCANDIX; Plante ombellifère (peigne de Vénus).
+SANDYX SANDIX; Colorant minéral rouge utilisé pour teindre les étoffes.
+SALEGY; Musique malgache.
+SAGEX; Helv. Polystyrène expansé.
+RUCKING; Au rugby, action de provoquer un ruck.
+RIXDALE; Ancienne monnaie européenne.
+PYXIDE; Bot. Capsule s'ouvrant par un couvercle.
+PLUMEUX; Qui ressemble à des plumes.
+PHYLA PHYLUM; Lignée génétique complexe (embranchement).
+PEDIEUX; Relatif au pied.
+OZALID; Tirage photo.
+OXYMEL; Médicament composé de miel et de vinaigre.
+OXYDASE; Enzyme.
+OXONIUM; Ion univalent à base d'oxygène.
+OXIME; Composé chimique.
+OXAMIDE; Diamide de l'acide oxalique.
+OXALIDE OXALIS; Variété d'oseille.
+OXYACIDE OXACIDE; Acide contenant de l'oxygène.
+OUMIAK; Embarcation des Esquimaux.
+NIZAM; Souverain (Inde).
+NAGAIKA NAHAIKA; Fouet de cuir des cosaques.
+MZABITE MOZABITE; Du Mzab (Sahara septentrional).
+MYXOME; Tumeur molle bénigne.
+MYXINE; Poisson vermiforme parasite des autres poissons.
+MYOSITE; Inflammation du tissu musculaire.
+MYOSIS; Rétrécissement de la pupille.
+MYOSINE; Constituant protéique des myofibrilles.
+MYOME; Tumeur bénigne du tissu musculaire.
+MYASE MYIASE; Lésion de la peau.
+MOHAWK; D'un peuple amérindien.
+MOTTEUX; Passereau.
+MINIMEX; Revenu minimum en Belgique.
+MIKVE; Dans le judaïsme, bain rituel.
+MELCHITE MELKITE; Chrétien de Syrie.
+MEDZE MEIDZE; Helv. Guérisseur.
+MAZOUK; Musique de la Martinique.
+MAZAME MAZAMA; Cervidé.
+MAURY; Vin des Pyrénées-Orientales. 
+MANDAYE; Homme à tout faire.
+MAMELOUK MAMELUK; Hist. Soldat égyptien.
+MALOYA; Danse créole.
+MALINKE; D'un peuple d'Afrique Occidentale.
+MALEKITE MALIKITE MALEKI; Adepte du malékisme (école de l'islam sunnite).
+MAKROUT MAKROUD; Pâtisserie tunisienne.
+MAKORE; Grand arbre tropical.
+MAGHZEN MAKHZEN; Administration marocaine.
+MAKAIRE; Marlin (poisson).
+LYMNEE LIMNEE; Mollusque d'eau douce.
+LOKOUM LOUKOUM; Confiserie orientale.
+LEXEME; Unité minimale de signification.
+LAMPYRE; Ver luisant.
+LADAKHI; Du Ladakh (Inde).
+KYUDO; Tir à l'arc japonais.
+KUMMEL; Liqueur aromatisée au cumin.
+KUMITE; Combat de karaté.
+KRUMP; Danse issue du hip-hop.
+KROUMIR; Ancêtre.
+KOUMYS KOUMIS; Lait fermenté de jument.
+KOUGLOF; Patisserie alsacienne.
+KOUDOU COUDOU; Antilope d'Afrique.
+KONGO; D'un peuple d'Afrique centrale.
+KONDO; Sanctuaire d'un monastère bouddhique.
+KOMBU; Algue brune.
+KNODEL; Boulette de pâte enrichie de viande ou de poisson.
+KLEZMER; Musique traditionnelle des juifs d’Europe de l’Est.
+KIZOMBA; Danse angolaise.
+KIMBAP; Sushi coréen.
+KHEDIVE; Titre porté par le vice-roi d'Egypte ancienne.
+KETMIE; Arbrisseau tropical .
+KERMES; Cochenille. - Petit chêne du Midi.
+KERMA; Grandeur mesurant le rayonnement absorbé.
+KEMIA; Amuse-gueule nord-africain.
+KANDJAR KANGLAR KANDJLAR; Poignard oriental.
+KAMICHI; Oiseau d'Amazonie à longues pattes.
+KALIUM; Potassium.
+QADJAR QAJAR KADJAR; D'une dynastie Turkmène.
+JINGXI; Spectacle chinois.
+IXODE; Tique.
+HYPOIDE; Se dit de certains engrenages coniques.
+HYPOGE; Biol. Qui se développe sous terre.
+HYGGE; Art du bonheur à la danoise, trouvé dans les plaisirs simples.
+HYADES; Groupe de sept étoiles de la constellation du Taureau.
+HUMIDEX; Québ. Indice météorologique exprimant l'effet combiné de la chaleur et de l'humidité.
+HAIDOUK HEIDUQUE HAIDOUC; Hist. Homme d'armes hongrois.
+HADDOK HADDOCK; Aiglefin fumé.
+GYRUS; Circonvolution cérébrale.
+GYRIN; Coléoptère des étangs.
+GYNOIDE; Qui présente des caractères féminins.
+GUPPY; Poisson tropical d'ornement.
+GUNZIEN; Relatif au günz (première glaciation du quaternaire).
+GOPAK HOPAK; Danse populaire ukrainienne.
+GONZO; Pornographie ou journalisme ultra-subjectif.
+GONAKIE GONAKIER; Arbre africain.
+GLYQUE; Hémoglobine sur laquelle s'est fixé du glucose.
+GIVREUX; (Pierre précieuse) ayant des traces d'éclat.
+GHAZEL; Poésie à forme fixe d’origine arabe.
+GEWURZ; Vin d'Alsace.
+GECKO; Lézard.
+GAYAL; Buffle d'Asie.
+GAIZE; Variété de grès.
+FLEXUM; Limitation de l'amplitude d'une articulation.
+EXONYME; n.m. Ling. Nom étranger d'un toponyme.
+EXEDRE; Salle de conversation.
+ETYMON; Mot qui donne l'étymologie d'un autre.
+EPOXYDE; Résine époxyde : résine plastique.
+EMYDE; Grande tortue d'eau douce.
+ELYME; Plante des dunes.
+DYTIQUE; Coléoptère aquatique.
+DYSURIE; Difficulté d'uriner.
+DYSPNEE; Trouble de la respiration.
+DYNODE; Électrode.
+DYADE; Ensemble de deux choses.
+DUGAZON; Amoureuse dans les opéras-comiques.
+DRYADE; Nymphe des forêts.
+DONAX; Mollusque bivalve.
+DOBOK; Tenue de taekwondo.
+DIXIE; Style de jazz New Orleans.
+DINGHY DINGHIE; Canot pneumatique.
+DIDYME; Formé de deux parties arrondies - Mélange de métaux rares.
+DIAKENE; Fruit formé de deux akènes.
+ZIKR DHIKR; Prière collective des sufis.
+DECITEX; Unité de mesure des fibres textiles.
+DAYAK; Langue indonésienne.
+DARKNET; Contenu illégal d'internet.
+DAKOTA; D’un peuple amérindien sioux.
+DAIMIO DAIMYO; Aristocrate dans l'ancien Japon.
+DAIKON; Gros radis asiatique.
+COKING; Transformation du pétrole en coke.
+CHYME; Contenu de l'estomac.
+BUGAKU; Chorégraphie japonaise.
+BIOXYDE; Dioxyde.
+BEIRAM BAYRAM BAIRAM; Fête musulmane.
+BAYOUD; Maladie des palmiers.
+AZURAGE; Traitement d'un linge, d'un papier, pour en aviver l'éclat.
+ARGYRIE; Coloration pathologique de la peau.
+AMYLE; Radical hydrocarboné.
+AMIXIE; Impossibilité de croiser 2 espèces.
+AMITIEUX AMITEUX; Belg. Affectueux.
+ALYSSE ALYSSON ALYSSUM; Plante ornementale. 
+ADYTON; Antiq. Chambre secrète des temples grecs.
+ABZYME; Sorte d'enzyme.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25C56" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Definition" representedClassName="Definition" syncable="YES" codeGenerationType="class">
+        <attribute name="enonce" attributeType="String" defaultValueString=""/>
+        <relationship name="graphies" toMany="YES" deletionRule="Cascade" destinationEntity="Mot" inverseName="definition" inverseEntity="Mot"/>
+    </entity>
+    <entity name="Mot" representedClassName="Mot" syncable="YES" codeGenerationType="class">
+        <attribute name="baseActive" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="motMort" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="nChrono" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nEchec" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nEssai" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nSession" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="sqSucces" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="definition" maxCount="1" deletionRule="Nullify" destinationEntity="Definition" inverseName="graphies" inverseEntity="Definition"/>
+        <relationship name="refOds" maxCount="1" deletionRule="Nullify" destinationEntity="Ods9" inverseName="mot" inverseEntity="Ods9"/>
+    </entity>
+    <entity name="Ods9" representedClassName="Ods9" syncable="YES" codeGenerationType="class">
+        <attribute name="graphie" attributeType="String" minValueString="3" maxValueString="9"/>
+        <attribute name="nAna" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nonConjFemPlu" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="spectre" attributeType="String" minValueString="3" maxValueString="9"/>
+        <relationship name="mot" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mot" inverseName="refOds" inverseEntity="Mot"/>
+    </entity>
+    <entity name="Sugg" representedClassName="Sugg" syncable="YES" codeGenerationType="class">
+        <attribute name="def" attributeType="String"/>
+        <attribute name="mots" attributeType="String"/>
+        <attribute name="timeStamp" attributeType="Date" defaultDateTimeInterval="749051820" usesScalarValueType="NO"/>
+    </entity>
+</model>

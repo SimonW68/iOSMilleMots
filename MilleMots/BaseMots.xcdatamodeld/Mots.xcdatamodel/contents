@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D60" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Definition" representedClassName="Definition" syncable="YES" codeGenerationType="class">
+        <attribute name="definition" attributeType="String" defaultValueString=""/>
+        <relationship name="mot" toMany="YES" deletionRule="Cascade" destinationEntity="Mot" inverseName="definition" inverseEntity="Mot"/>
+    </entity>
+    <entity name="Mot" representedClassName="Mot" syncable="YES" codeGenerationType="class">
+        <attribute name="baseActive" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="graphie" attributeType="String" minValueString="3" maxValueString="9"/>
+        <attribute name="motMort" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="nChrono" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nEchec" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nEssai" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nSession" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="sqSucces" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="txErr" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="definition" maxCount="1" deletionRule="Nullify" destinationEntity="Definition" inverseName="mot" inverseEntity="Definition"/>
+    </entity>
+    <entity name="Ods9" representedClassName="Ods9" syncable="YES" codeGenerationType="class">
+        <attribute name="graphie" attributeType="String" minValueString="3" maxValueString="9"/>
+        <attribute name="spectre" attributeType="String"/>
+    </entity>
+</model>

@@ -1,0 +1,116 @@
+/* 
+  Localizable.strings
+  MilleMots
+
+  Created by Simon Wintz on 29/04/2024.
+  
+*/
+
+"app_name" = "MilleMots";
+"help_titre_icones" = "Signification des Icônes Principales";
+"help_icone_tri" = "Changer l\'ordre de tri de la liste de mots";
+"help_titre_icones" = "Signification des Icônes Principales";
+"help_icone_tri" = "Changer l'ordre de tri de la liste de mots ";
+"help_icone_add" = "Ajouter un mot à la base ";
+"help_icone_del" = "Supprimer le mot slectionné de la base ";
+"help_icone_reglages" = "Accéder aux paramètres de l'application ainsi qu'à l'aide";
+"help_icone_share" = "Partager sa base de mots avec d\'autres utilisateurs";
+"help_icone_decoche" = "Décochez les mots suggérés par MilleMots que vous ne souhaitez pas retenir";
+"help_icone_exercice" = "Accéder aux exercices de mémorisation des mots de la base";
+"help_icone_refill" = "Accéder aux listes de mots suggérés à ajouter à la base";
+"help_icone_valid" = "Valider le mot présent sur la réglette";
+"help_icone_sauvegarde" = "Sauvegarder les paramètres d\'application modifiés";
+"help_icone_clue" = "Révéler la définition du mot à trouver";
+"help_icone_az" = "Remettre le tirage en ordre alphabétique";
+"help_icone_feu" = "Indication du taux d\'erreur cumulé sur le mot (rouge = élevé)";
+
+ "help_principes_titre" = "Principes de Base";
+ "help_principes_intro" = "Commencez par entrer des mots dans votre base puis exercez-vous à les retrouver. ";
+ "help_princ_titre_p1" = "§1. Ajouter un mot à la base active ";
+ "help_princ_titre_p2" = "§2. Base active ";
+ "help_princ_titre_p3" = "§3. Alimenter la base par des suggestions ";
+ "help_princ_titre_p4" = "§4. Exercices de mémorisation ";
+ "help_princ_titre_p5" = "§5. Désactivation des mots ";
+ "help_princ_titre_p6" = "§6. Changement manuel du statut d\'un mot  ";
+ "help_princ_titre_p7" = "§7. Edition d\'un mot ";
+ "help_princ_titre_p8" = "§8. Consolidations ";
+ "help_princ_titre_p9" = "§9. Préférences ";
+ "help_princ_titre_p10" = "§10. Partage de la base de mots ";
+
+ "help_princ_p1" = "Cliquez sur l\’icône « + » pour entrer un nouveau mot. Ajoutez toutes les graphies possibles du même mot, séparées par des espaces (exemple: KHAT KAT QAT). L\’affichage en noir indique que le mot est déjà dans la base, en rouge qu\’il est mal orthographié et vous ne pouvez pas l\’ajouter. En vert vous êtes invités à entrer une brève définition.";
+"help_princ_p2" = "Sur l\’écran d\’accueil s\’affichent les mots de votre base. Les mots en gras sont les mots actifs, en caractères maigres les mots désactivés et en italique les mots acquis. Vous pouvez changer l\’ordre de la liste en cliquant sur l\’icône « tri » pour passer du tri alphabétique au tri par taux d\’erreur décroissant, par nombre d\’essais effectués ou encore chronologique.";
+ "help_princ_p3" = "Vous pouvez ajouter à votre base des mots suggérés par MilleMots en cliquant sur l\’icône « essence ». Si vous ne voulez pas accepter tous les mots proposés, décochez les cases correspondantes. Pour ajouter les mots retenus à la base, cliquez sur « ajouter » (appui long).";
+ "help_princ_p4" = "Lorsque vous avez assez de mots actifs, vous pouvez effectuer des exercices en cliquant sur l\’icône « exercices ». MilleMots vous propose une session de tirages aléatoires de mots actifs. Vous devez retrouver les mots à partir des tirages, dans le temps imparti. Lorsque vous avez formé un mot sur la réglette, cliquez sur l\’icône « cible ». Si vous avez proposé une anagramme vous pouvez retenter votre chance. Pour vous aider à trouver le mot vous pouvez voir sa définition en cliquant sur l\’icône « indice ». Pour remettre les lettres dans l\'ordre initial cliquez sur l\’icône « A..Z ». A la fin de la session, une note et un corrigé vous est présenté. Cliquez sur une ligne du corrigé pour voir les détails d\'un mot.";
+ "help_princ_p5" = "Lorsque vous avez trouvé un mot N fois consécutivement sans erreur, celui-ci est désactivé (sauf si le nombre de mots actifs est insuffisant). Ainsi, au fur et à mesure que vous ajoutez des mots à votre base, ceux que vous maîtrisez en sont retirés de manière à conserver un nombre de mot actifs constant. En bas de l\’écran, s\’affichent le nombre de mot de la base, le nombre de mots actifs, le nombre total de coups joués et le taux d\'erreur cumulé. ";
+ "help_princ_p6" = "Vous pouvez desactiver ou réactiver un mot en effectuant un clic long sur ce mot dans la liste et en confirmant l\’action qui vous est proposée, ou bien par la fonction « édition d\'un mot » (voir §7 ci dessous).";
+ "help_princ_p7" = "Vous pouvez changer le statut d\'un mot, éditer sa définition ou bien lui rajouter des graphies alternatives en cliquant sur le mot en haut de l\’écran. Choisissez alors si vous voulez ajouter une graphie ou bien changer la définition et entrez les données correspondantes.";
+ "help_princ_p8" = "Pour consolider votre connaissance de mots déjà désactivés vous pouvez réactiver des listes de mots en cliquant sur l\’icône « essence » et l\’option « consolidations ». Le principe est identique à celui des suggestions (§4 ci-dessus). Dans le menu « réglages » (voir §9), choisissez de favoriser la réactivation plutôt de mots anciens ou plutôt de mots difficiles (avec taux d\'erreur élevé). Après un certain nombre de réactivations, un mot est désactivé définitivement (acquis).";
+ "help_princ_p9" = "Dans le menu « réglages » ajustez les paramètres suivant vos préférences : taille mini de la base active (voir §5), séquence de succès consécutifs requise (voir §5), nombre de tirage par session (voir §4), nombre de mots proposés en suggestion ou consolidation (voir §3), nombre max de réactivations par mot (voir §8), option temps limité et valeur de temps limite (voir §4), préférence de consolidation (voir §8), nom du fichier de partage (voir §10)";
+ "help_princ_p10" = "Vous pouvez partager votre base de mots par mèl avec un autre utilisateur à l\'aide de la commande « exporter » et vous pouvez charger la base de mot d\'un autre utilisateur, reçue par mèl et enregistrée dans le répertoire « download » de votre téléphone, à l\'aide de la commande « importer ». Si celle-ci comprend des mots qui ne sont pas déjà présents dans votre base ils vous seront proposés suivant le même principe que les suggestions (voir §3).";
+ "preferencesTitre" = "Préférences :";
+ "pref_text1" = "Taille mini de la base active";
+ "pref_text2" = "mots";
+ "pref_text3" = "Séquence succès mini";
+ "pref_text4" = "Nombre de tirage par séquence";
+ "pref_text5" = "tirages";
+ "pref_text6" = "Nombre de suggestions";
+ "pref_text7" = "Nombre max de sessions par mot";
+ "pref_text8" = "sessions";
+ "pref_text9" = "Temps limité";
+ "pref_text10" = "s";
+ "pref_text11" = "Nom du fichier de partage";
+ "pref_text12" = "Chemin";
+ "pref_text13" = "Préférence Consolidations";
+ "pref_text14" = "Mots Anciens";
+ "pref_text15" = "Mots Difficiles";
+ "pref_text16" = "Meilleur temps 20/20";
+ "info_add_mot" = "Entrez les différentes graphies du mot, séparées par des espaces, exemple : QAT KAT KHAT";
+ "add_mot_titre" = "Nouveau Mot";
+ "add_mot_def_hint" = "Entrez la définition ici";
+ "refill_consolidations" = "Consolidations";
+ "refill_suggestions" = "Suggestions";
+ "dm_suppr" = "supprimé de la base";
+ "dm_ajout" = "ajouté à la base";
+ "dm_ajouts" = "ajouté(s) à la base";
+ "dm_mots_ajouts" = " mots ajoutés à la base";
+"dm_mots_reac" = " mots réactivés";
+ "dm_maj" = "mis à jour";
+ "dm_desac" = "désactivé";
+ "dm_arch" = "acquis";
+ "dm_reac" = "réactivé";
+ "dm_def" = "Définition :";
+ "dm_deja" = "Déjà tenté!";
+ "dm_ana" = "Anagramme";
+ "dm_enreg_clic" = "Pour enregistrer les parmètres : clic long";
+ "dm_ajout_clic" = "Pour ajouter les mots à la base : clic long";
+ "dm_fichier_non_reconnu" = "Fichier d\'échange non reconnu";
+ "dm_mots_nouveaux" = "%@ nouveaux mots trouvés dans la base";
+ "dm_aucun_mot_nouveau" = "Aucun mot nouveau trouvé dans le fichier";
+ "dm_probleme_ouverture" = "Problème d\'ouverture du fichier";
+ "dm_probleme_ecriture" = "Problème d\'écriture du fichier";
+ "share_partage" = "Partage de la base de mots :";
+ "share_partager" = "Partager avec …";
+ "sb_inactif" = "est inactif";
+ "sb_actif" = "est actif";
+ "sb_activ" = "ACTIVER";
+ "sb_desactiv" = "DESACTIVER";
+ "sb_ajout" = "AJOUTER";
+ "sb_suppr" = "SUPPRIMER";
+ "add_mot_drapeau1" = "OK";
+ "add_mot_drapeau2" = "Mot identique";
+ "add_mot_drapeau3" = "Mot non reconnu";
+ "add_mot_drapeau4" = "Mot déjà présent";
+ "add_mot_message" = "9 lettres max";
+ "prefix_ana" = "Ana.:";
+ "prefix_ext" = "Ext.+1:";
+ "edit_mot_titre" = "Editer un mot :";
+ "edit_mot_switch_ortho" = "Ajouter une graphie :  ";
+ "edit_mot_switch_def" = "Editer la définition :  ";
+ "edit_mot_actif" = "Actif : ";
+ "edit_mot_acquis" = "Acquis : ";
+ "jeu_hors_delai" = "(hors délai)";
+ "exporter" = "Exporter :";
+ "importer" = "Importer :";
+ "conf_titre" = "Confidentialité de l\'application";
+ "conf_decla" = "Données non collectées : le développeur ne collecte aucune donnée avec cette application.";
+ "conf_en_savoir_plus" = "en savoir plus";

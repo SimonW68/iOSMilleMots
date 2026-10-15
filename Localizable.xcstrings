@@ -1,0 +1,436 @@
+{
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "" : {
+
+    },
+    ":" : {
+
+    },
+    "(%lld/%lld)" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "(%1$lld/%2$lld)"
+          }
+        }
+      }
+    },
+    "(source : elimots.com)" : {
+
+    },
+    "§1. Jeu (Exercice de mémorisation)" : {
+
+    },
+    "§2. Ajouter un mot à votre base active" : {
+
+    },
+    "§3. Alimenter votre base" : {
+
+    },
+    "§4. Edition d'un mot" : {
+
+    },
+    "§5. Option de jeu" : {
+
+    },
+    "§6. Filtres" : {
+
+    },
+    "§7. Réglages" : {
+
+    },
+    "§8. Partage de votre base de mots" : {
+
+    },
+    "§9. Sauvegarde de la base" : {
+
+    },
+    "**%@** %@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "**%1$@** %2$@"
+          }
+        }
+      }
+    },
+    "%@" : {
+
+    },
+    "%@ " : {
+
+    },
+    "%@  -  (" : {
+
+    },
+    "%@ )" : {
+
+    },
+    "%@ désactivé" : {
+
+    },
+    "%@ réactivé" : {
+
+    },
+    "%@, jeu pour iPhone et iPad" : {
+
+    },
+    "%@%@%@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$@%3$@"
+          }
+        }
+      }
+    },
+    "%d" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld importations" : {
+
+    },
+    "%lld mots" : {
+
+    },
+    "333" : {
+
+    },
+    "A J O U T E R" : {
+
+    },
+    "Accéder à l'aide détaillée par l'icône %@" : {
+
+    },
+    "Accéder à l'aide, aux utilitaires et aux paramètres." : {
+
+    },
+    "Accéder aux listes de mots à réactiver pour consolidation, ou bien importés d'autres bases" : {
+
+    },
+    "Acquis : " : {
+
+    },
+    "Actif : " : {
+
+    },
+    "Affichage toute la base ou seulement les mots actifs" : {
+
+    },
+    "Aide MilleMots - V.%@ (%@)" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Aide MilleMots - V.%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "Ana.: %@" : {
+
+    },
+    "Anagramme" : {
+
+    },
+    "Aucun mot nouveau trouvé dans le fichier" : {
+
+    },
+    "Avant de démarrer une séquence de jeu, vous pouvez sélectionner un mode de jeu optionnel parmis les trois proposés:\n- mots proches: les mots proposés sont le plus semblable possible les uns aux autres,\n- anagramme : il faut retrouver le mot à partir d'une de ses anagrammes,\n- mot-plus-un : retrouver le mot à partir d'un mot plus court et une lettre.\nPour l'option mots proches, il est préférable d'avoir une base de mot la plus étendue possible, donc d'afficher les mots inactifs de la base.\n" : {
+
+    },
+    "Base : %@" : {
+
+    },
+    "C O N F I R M E R" : {
+
+    },
+    "Chargement des données..." : {
+
+    },
+    "Choix de l'ordre de tri de la liste des mots (alphabétique, etc.)" : {
+
+    },
+    "Cliquez sur %@ pour rechercher le mot que vous souhaitez ajouter. Si le mot est déjà dans la base il apparaît en noir et vous pouvez l'éditer (cf.§4 ci-dessous), sinon il apparaît en vert (s'il est en rouge, vérifiez l'orthographe car cela signifie qu'il n'est pas reconnu). Si vous êtes en ligne, les détails du mot vont s'afficher et vous pourrez les modifier avant d'ajouter le mot à votre base active par l'icône %@.\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cliquez sur %1$@ pour rechercher le mot que vous souhaitez ajouter. Si le mot est déjà dans la base il apparaît en noir et vous pouvez l'éditer (cf.§4 ci-dessous), sinon il apparaît en vert (s'il est en rouge, vérifiez l'orthographe car cela signifie qu'il n'est pas reconnu). Si vous êtes en ligne, les détails du mot vont s'afficher et vous pourrez les modifier avant d'ajouter le mot à votre base active par l'icône %2$@.\n"
+          }
+        }
+      }
+    },
+    "Cliquez sur %@ pour rechercher le mot que vous souhaitez éditer. Si le mot est bien présent dans la base il apparaît en noir et vous pouvez l'éditer : ajouter une graphie, éditer sa définition, ou changer son statut courant (actif, acquis). Puis vous enregistrez les modifications par l'icône %@.\nVous pouvez également le supprimer de votre base par l'icône %@.\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cliquez sur %1$@ pour rechercher le mot que vous souhaitez éditer. Si le mot est bien présent dans la base il apparaît en noir et vous pouvez l'éditer : ajouter une graphie, éditer sa définition, ou changer son statut courant (actif, acquis). Puis vous enregistrez les modifications par l'icône %2$@.\nVous pouvez également le supprimer de votre base par l'icône %3$@.\n"
+          }
+        }
+      }
+    },
+    "Cliquez sur l'entête de la liste de mots (par défaut: \"Tous les mots de votre base active\") pour créer un filtre" : {
+
+    },
+    "Commandes Principales" : {
+
+    },
+    "Composez votre filtre" : {
+
+    },
+    "Confidentialité de l'application" : {
+
+    },
+    "Consolidations" : {
+
+    },
+    "Contenu" : {
+
+    },
+    "Dans le menu %@ vous avez la possibilité d'effectuer une sauvegarde %@ de votre base de mots sous forme d'un fichier txt, pour pouvoir la recharger %@ sur un autre appareil ou bien sur le même appareil, après ré-installation de l'application.\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dans le menu %1$@ vous avez la possibilité d'effectuer une sauvegarde %2$@ de votre base de mots sous forme d'un fichier txt, pour pouvoir la recharger %3$@ sur un autre appareil ou bien sur le même appareil, après ré-installation de l'application.\n"
+          }
+        }
+      }
+    },
+    "Définition: %@" : {
+
+    },
+    "Déjà tenté !" : {
+
+    },
+    "Démarrage de MilleMots" : {
+
+    },
+    "Démarrer une séquence de jeu" : {
+
+    },
+    "Dernière en date du : %@" : {
+
+    },
+    "DESACTIVER" : {
+
+    },
+    "Données personnelles : cette application ne collecte aucune donnée et ne partage aucune donnée avec des tiers [en savoir plus](https://sites.google.com/view/simonwintz/accueil/fr)" : {
+
+    },
+    "Donner votre avis" : {
+
+    },
+    "Effectuez des séquences de %lld interrogations aléatoires pour mémoriser les mots de votre base active. Lorsque vous trouvez un mot donné, %lld fois consécutives (valeur réglable), celui-ci est désactivé. Vous pouvez alors ajouter d'autres mots à votre base pour maintenir un nombre constant de mots actifs (conseillé : 200 à 300)\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Effectuez des séquences de %1$lld interrogations aléatoires pour mémoriser les mots de votre base active. Lorsque vous trouvez un mot donné, %2$lld fois consécutives (valeur réglable), celui-ci est désactivé. Vous pouvez alors ajouter d'autres mots à votre base pour maintenir un nombre constant de mots actifs (conseillé : 200 à 300)\n"
+          }
+        }
+      }
+    },
+    "En cliquant sur l'entête de la liste de mot qui par défaut affiche \"Tous les mots de votre base active\", vous pouvez construire un filtre qui permet d'appliquer des critères à votre liste de mots. Les critères applicables sont :\n\n- la longueur : plage de longueur de mot de 3 à 9 lettres\n\n- le préfixe (exemple : tous les mots commençant par K)\n\n- le contenu (exemple : tous les mots contenant un Y et un Z)\n\n- le suffixe (exemple : tous les mots se terminant par IDE)\n\n- les exclusions (exemple : tous les mots qui ne comportent ni A ni E)\n\nPour les contenus et les exclusions, vous disposez de caractères génériques qui se réfèrent aux points des lettres du Scrabble® (exemple : lettre a 10 points, lettres à plus de 2 points, etc.) et des multiplicateurs (exemple: 3L pour les mots qui doivent contenir trois fois la lettre L)\n\nEnfin, en sélectionnant l'option monômes : %@ vous ne gardez que les mots qui ont zéro anagramme.\n\nLorsque vous avez défini un filtre, sa description s'affiche dans l'entête, la liste de mots est mise à jour et les séquences de jeux ultérieures sont basées sur ce filtre.\n" : {
+
+    },
+    "Exclusions" : {
+
+    },
+    "Exporter : " : {
+
+    },
+    "Fichier d'échange non reconnu" : {
+
+    },
+    "I" : {
+
+    },
+    "Importations" : {
+
+    },
+    "Importer : " : {
+
+    },
+    "Indication du taux d'erreur cumulé sur un mot (rouge = mot difficile)" : {
+
+    },
+    "K" : {
+
+    },
+    "L" : {
+
+    },
+    "La pratique de MilleMots comporte des risques : isolement, addiciton. Trouvez de l'aide sur : [joueurs-info-service.fr](https://www.joueurs-info-service.fr/)" : {
+
+    },
+    "Lancer MilleMots" : {
+
+    },
+    "Lancez le jeu par l'icône %@" : {
+
+    },
+    "Les définitions pour les mots nouveaux, proposées par MilleMots, proviennent du remarquable site de Sylvain Ravot : [elimots/ods.com](https://elimots.com/ods/)" : {
+
+    },
+    "Lus : %lld" : {
+
+    },
+    "M" : {
+
+    },
+    "maintenant" : {
+
+    },
+    "Meilleur temps 20/20" : {
+
+    },
+    "Mode : %@" : {
+
+    },
+    "mots" : {
+
+    },
+    "mots ajoutés à la base" : {
+
+    },
+    "Mots Anciens" : {
+
+    },
+    "Mots Difficiles" : {
+
+    },
+    "mots réactivés" : {
+
+    },
+    "Nom du fichier de partage" : {
+
+    },
+    "Nombre de suggestions" : {
+
+    },
+    "Nombre de tirages part séquence" : {
+
+    },
+    "Nouveaux : %lld" : {
+
+    },
+    "nouvelle graphie" : {
+
+    },
+    "Partage de sa base avec d'autres utilisateurs / Sauvegarde" : {
+
+    },
+    "Pour régler les paramètres suivant vos préférences cliquez sur %@. Vous pourrez :\n\n- choisir la séquence de succès (c'est le nombre de réponses exactes requises sur un mot pour qu'il soit désactivé),\n\n- choisir la taille du lot de consolidations ou d'importations (voir §3 ci-dessus)\n\n- désactiver l'option \"temps limité\" ou changer la durée allouée par mot\n\n- persponnaliser le nom du fichier de partage (voir §8 ci-dessous).\n" : {
+
+    },
+    "Préférence Consolidations" : {
+
+    },
+    "Préférences" : {
+
+    },
+    "Préfixe" : {
+
+    },
+    "Principes de Base" : {
+
+    },
+    "Quant un filtre est actif, balayez la liste de mots vers la droite pour faire apparaître la liste des mots hors-base (en vert)." : {
+
+    },
+    "R E A C T I V E R" : {
+
+    },
+    "REACTIVER" : {
+
+    },
+    "Rechercher un mot, pour éventuellement l'ajouter s'il n'est pas dans la base ou l'éditer s'il y est déjà." : {
+
+    },
+    "Remettre le tirage dans l'ordre alphabétique" : {
+
+    },
+    "Replacez les lettres dans l'ordre et validez %@" : {
+
+    },
+    "Restaurer ma base : " : {
+
+    },
+    "Révéler la définition du mot à trouver" : {
+
+    },
+    "S U P P R I M E R" : {
+
+    },
+    "Sauvegarde de sa base de mots" : {
+
+    },
+    "Sauvegarder : " : {
+
+    },
+    "Séquence succès mini" : {
+
+    },
+    "Si vous disposez d'une base précédemment sauvegardée, vous pouvez la recharger maintenant." : {
+
+    },
+    "Sinon lancez l'appli dans la section ci-dessous." : {
+
+    },
+    "Suffixe" : {
+
+    },
+    "Télécharger %@" : {
+
+    },
+    "Valider le mot présent sur la réglette" : {
+
+    },
+    "Veuillez-trouver ci-joint ma base de mots MilleMots." : {
+
+    },
+    "Vous aimez MilleMots ?" : {
+
+    },
+    "Vous pouvez entrer dans votre base les mots que vous rencontrez au cours de parties de Scrabble® par exemple. Si vous utilisez les applications Karnage ou Carnaj, vous pourrez ajouter directement dans MilleMots les mots que vous y découvrez (cf. section %@).\nQuand vous aurez pratiqué MilleMots quelques temps, vous pourrez également choisir de réactiver des mots désactivés depuis un certain temps (C'est un excellent moyen de consolider sa mémoire). Pour cela, dans la section %@ précisez si vous souhaitez réactiver plutôt les mots les plus anciens ou alors ceux qui vous on posé le plus de difficultés (taux d'erreur élevé).\nEnfin, vous pouvez charger une base de mots reçue d'un autre utilisateur de MilleMots (cf §8 ci-dessous). Les mots importés sont accessible par l'icône %@ et vous pouvez les ajouter à votre base au fur et à mesure de vos besoins.\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Vous pouvez entrer dans votre base les mots que vous rencontrez au cours de parties de Scrabble® par exemple. Si vous utilisez les applications Karnage ou Carnaj, vous pourrez ajouter directement dans MilleMots les mots que vous y découvrez (cf. section %1$@).\nQuand vous aurez pratiqué MilleMots quelques temps, vous pourrez également choisir de réactiver des mots désactivés depuis un certain temps (C'est un excellent moyen de consolider sa mémoire). Pour cela, dans la section %2$@ précisez si vous souhaitez réactiver plutôt les mots les plus anciens ou alors ceux qui vous on posé le plus de difficultés (taux d'erreur élevé).\nEnfin, vous pouvez charger une base de mots reçue d'un autre utilisateur de MilleMots (cf §8 ci-dessous). Les mots importés sont accessible par l'icône %3$@ et vous pouvez les ajouter à votre base au fur et à mesure de vos besoins.\n"
+          }
+        }
+      }
+    },
+    "Vous pouvez partager votre base de mots par mèl avec un autre utilisateur, à l'aide de la commande %@ dans la section %@. De même, vous pouvez recevoir la base de mot d'un autre utilisateur, par mèl (en l'enregistrant dans le répertoire download de votre smartphone), à l'aide de la commande %@. Les mots reçus qui ne sont pas déjà présents dans votre base sont ajoutés au stock d'importations (cf. §3 ci-dessus).\n" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Vous pouvez partager votre base de mots par mèl avec un autre utilisateur, à l'aide de la commande %1$@ dans la section %2$@. De même, vous pouvez recevoir la base de mot d'un autre utilisateur, par mèl (en l'enregistrant dans le répertoire download de votre smartphone), à l'aide de la commande %3$@. Les mots reçus qui ne sont pas déjà présents dans votre base sont ajoutés au stock d'importations (cf. §3 ci-dessus).\n"
+          }
+        }
+      }
+    },
+    "X" : {
+
+    },
+    "Y" : {
+
+    },
+    "Σ %lld" : {
+
+    }
+  },
+  "version" : "1.1"
+}
