@@ -121,7 +121,6 @@ let DECODAGE : [String : String] = [
 let REQUETE_VIDE = NSPredicate(value: false)
 let REQUETE_PLEINE = NSPredicate(value: true)
 let REQUETE_BASE_ACTIVE : NSPredicate = NSPredicate(format: "baseActive == YES")
-let REQUETE_PAR_DEFAUT : NSPredicate = NSPredicate(format: "motMort == NO")
 
 // C O N S T A N T E S
 let ALLOWED_CAR_NEW : String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "

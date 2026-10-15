@@ -31,7 +31,7 @@ class Com: ObservableObject {
     @Published var phase: Phase = .user
     @Published var largScreen : CGFloat = 0.0
     @Published var path = NavigationPath()
-    @Published var predicateMots: NSPredicate = REQUETE_PAR_DEFAUT
+    @Published var predicateMots: NSPredicate = REQUETE_PLEINE
     @Published var predicateOds: NSPredicate = REQUETE_VIDE
     @Published var pret: Bool = false
     @Published var tauxSucces: Double = .zero
@@ -185,7 +185,10 @@ class Com: ObservableObject {
     }
     private func applyFilterMots() -> NSPredicate {
         let p = filtreCompose(entite: .Mot)
-        let q = NSPredicate(format: "motMort == NO" + (monomesOnly ? " && refOds.nAna == 1" : VIDE) + (actifsOnly ? " && baseActive == YES": VIDE))
+        var predics : [String] = []
+        if monomesOnly {predics.append("refOds.nAna == 1")}
+        if actifsOnly {predics.append("baseActive == YES")}
+        let q = predics.isEmpty ? REQUETE_PLEINE : NSPredicate(format: predics.joined(separator: " && "))
         return NSCompoundPredicate(type: .and, subpredicates: [p, q])
     }
     func applyFilterOds() -> NSPredicate {
